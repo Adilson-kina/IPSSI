@@ -1,0 +1,26 @@
+{
+  "name": "ipssi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adilson-kina/IPSSI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adilson-kina/IPSSI/issues"
+  },
+  "homepage": "https://github.com/Adilson-kina/IPSSI#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongose": "^0.0.2-security",
+    "nodemon": "^3.1.9"
+  }
+}
